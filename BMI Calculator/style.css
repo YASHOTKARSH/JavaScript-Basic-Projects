@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: rgb(235, 225, 212);
+}
+.start{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 12rem;
+}
+
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    margin-top: 1rem;
+}
+#bmiResult{
+    border-radius: .5rem;
+    background-color: rgb(24, 22, 19);
+    color: aliceblue;
+
+}
